@@ -60,7 +60,6 @@ export default function EducationSection() {
                   </div>
                 </div>
 
-                {/* Right side - Content */}
                 <div className="flex-1">
                   <div className="rounded-lg border border-zinc-800 bg-zinc-900/30 p-6 backdrop-blur-sm hover:border-green-500/20 transition-colors duration-300">
                     <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-4">
@@ -71,10 +70,12 @@ export default function EducationSection() {
                       </div>
                     </div>
 
-                    <div className="flex items-center mb-4">
-                      <GraduationCap className="w-5 h-5 text-zinc-500 mr-2" />
-                      <span className="text-zinc-400">{item.institution}</span>
-                      <div className="ml-auto flex items-center">
+                    <div className="flex flex-col md:flex-row md:items-center mb-4">
+                      <div className="flex items-center mb-2 md:mb-0">
+                        <GraduationCap className="w-5 h-5 text-zinc-500 mr-2" />
+                        <span className="text-zinc-400">{item.institution}</span>
+                      </div>
+                      <div className="md:ml-auto flex items-center">
                         <Award className="w-4 h-4 text-green-500 mr-1" />
                         <span className="text-green-500 font-medium">{item.grade}</span>
                       </div>

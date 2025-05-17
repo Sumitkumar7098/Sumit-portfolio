@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { motion } from "framer-motion"
-import { Calendar, MapPin } from "lucide-react"
+import { Calendar, MapPin, ChevronRight } from "lucide-react"
 import SectionHeading from "@/components/ui/section-heading"
 
 export default function ExperienceSection() {
@@ -74,7 +74,7 @@ export default function ExperienceSection() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.5 }}
-            className="lg:col-span-4"
+            className="lg:col-span-4 relative"
           >
             <div className="flex flex-row overflow-x-auto scrollbar-hide lg:flex-col">
               {experienceData.map((job, index) => (
@@ -98,6 +98,9 @@ export default function ExperienceSection() {
                   </div>
                 </button>
               ))}
+            </div>
+            <div className="absolute right-4 top-1/2 -translate-y-1/2 text-green-500 lg:hidden">
+              <ChevronRight className="h-6 w-6 animate-pulse" />
             </div>
           </motion.div>
 
