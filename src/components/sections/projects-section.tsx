@@ -57,8 +57,8 @@ export default function ProjectsSection() {
         "Designed and developed a modern portfolio website to showcase my projects, education, and skills, featuring a responsive UI and dynamic content."
       ],
       techStack: ["Next.js", "Supabase", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "Lucide React"],
-      link: "https://your-portfolio-url.vercel.app",
-      repoLink: "https://github.com/your-username/portfolio",
+      link: "https://parthiv-portfolio-sandy.vercel.app/",
+      repoLink: "https://github.com/pparthiv/parthiv-portfolio",
       image: "parthiv.png?height=600&width=800"
     }
   ]

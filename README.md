@@ -48,8 +48,8 @@ Additionally, I'm an avid problem solver with substantial experience in competit
 
 ## 🔗 Links
 
-- **Live Site:** [https://your-portfolio-url.vercel.app](https://your-portfolio-url.vercel.app)  
-- **Repository:** [https://github.com/your-username/portfolio](https://github.com/your-username/portfolio)
+- **Live Site:** [https://parthiv-portfolio-sandy.vercel.app/](https://parthiv-portfolio-sandy.vercel.app/)  
+- **Repository:** [https://github.com/pparthiv/parthiv-portfolio](https://github.com/pparthiv/parthiv-portfolio)
 
 ---
 
