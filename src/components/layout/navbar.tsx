@@ -53,7 +53,7 @@ export default function Navbar({ activeSection }: NavbarProps) {
             className="font-thin tracking-wider"
           >
             <a href="#hero" className="group flex items-center text-lg lowercase">
-              <span className="text-green-500">p</span>arthiv
+              <span className="text-green-500">S</span>umit
               <motion.span
                 initial={{ opacity: 0, scale: 0 }}
                 animate={{ opacity: 1, scale: 1 }}

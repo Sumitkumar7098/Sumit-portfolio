@@ -20,8 +20,8 @@ export default function AboutSection() {
           >
             <SimpleFade>
               <p className="text-zinc-300 mb-4">
-                I'm a final-year B.Tech student specializing in AI/ML and Backend Development. With a passion for
-                building scalable systems and exploring cutting-edge technologies, I strive to create solutions that
+                I'm a final-year B.Tech student specializing in UI/UX Designer & Python Developer. With a passion for
+                building user-friendly interfaces and exploring cutting-edge technologies, I strive to create solutions that
                 make a meaningful impact.
               </p>
               <br/>
@@ -32,10 +32,6 @@ export default function AboutSection() {
                 implementing efficient algorithms. Alongside this, my fascination with system design has
                 driven me to explore efficient systems. My interest in different tech has led me to work on various
                 systems, leading to my versatile ability to work and learn effectively.
-                <br/>
-                I also possess strong problem solving skills and have gained extensive experience in solving
-                competitive programming questions on platforms such as LeetCode, HackerRank, and other such
-                websites.
                 <br/>
               </p>
             </SimpleFade>

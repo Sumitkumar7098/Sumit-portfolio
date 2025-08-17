@@ -12,45 +12,31 @@ export default function ProjectsSection() {
 
   const projectsData = [
     {
-      title: "Segmentation of Retinal Fundus Images",
+      title: "Redesign Phonepe",
       description:
-        "Developed a Hybrid Segmentation Model based on Image Transformers and CNNs for multi-class segmentation of Retinal Fundus Images.",
+        "Redesigned the Phonepe app with a focus on enhancing user experience and visual appeal, incorporating modern design principles.",
       achievements: [
-        "Achieved a Mean IoU of 55.81%, F1-Score of 65.86%, and Avg. ROC-AUC of 0.99.",
-        "Currently working on developing and implementing an improved novel architecture.",
+        "Conducted user research to identify pain points and areas for improvement.",
+        "Developed high-fidelity prototypes using Figma, focusing on usability and aesthetics.",
       ],
-      techStack: ["Python", "Machine Learning", "PyTorch", "OpenCV", "Linux OS"],
+      techStack: ["Figma", "Adobe XD", "Sketch", "InVision", "Adobe Illustrator"],
       link: null,
       repoLink: null,
       image: "/exudates.png?height=600&width=800",
     },
     {
-      title: "Hestia",
+      title: "Chat Application",
       description:
-        "Developed a community-based app to assist homeless individuals by tagging locations and generating alerts for volunteers or NGOs.",
+        "Developed a chat application with real-time messaging and user authentication.",
       achievements: [
-        "Engineered a Face Clustering pipeline for efficient detection and categorization, enhancing accuracy and speed.",
-        "Managed ETL processes and cloud operations for the application.",
-        "Designed and implemented the data architecture and deployment strategy.",
+        "Implemented WebSocket for real-time communication.",
+        "Designed a responsive UI using React and Tailwind CSS.",
+        "Integrated user authentication with JWT.",
       ],
-      techStack: ["TensorFlow", "Firebase", "GCP", "Flutter", "React", "Python"],
+      techStack: ["UI", "UX", "Design", "Flutter", "Dart", "Firebase"],
       link: null,
       repoLink: "https://github.com/Krishnabh-Das/HESTIA.git",
       image: "/hestia.png?height=600&width=800",
-    },
-    {
-      title: "ViatorAI",
-      description:
-        "Developed an AI-powered travel assistant integrating real-time weather tracking, intelligent location recommendations, and travel insights.",
-      achievements: [
-        "Implemented interactive mapping with weather-adaptive itinerary planning and air quality monitoring.",
-        "Integrated AI-driven suggestions using Google Gemini AI to enhance personalized user experiences.",
-        "Utilized OpenWeatherMap API for real-time weather data and NewsAPI for local event updates.",
-      ],
-      techStack: ["Next.js", "TypeScript", "React 18", "GeminiAI"],
-      link: "https://viator-ai.vercel.app/",
-      repoLink: "https://github.com/pparthiv/ViatorAI",
-      image: "/viator.png?height=600&width=800",
     },
     {
       title: "Personal Portfolio Website",
@@ -59,32 +45,22 @@ export default function ProjectsSection() {
         "Designed and developed a modern portfolio website to showcase my projects, education, and skills, featuring a responsive UI and dynamic content."
       ],
       techStack: ["Next.js", "Supabase", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "Lucide React"],
-      link: "https://parthiv-portfolio-sandy.vercel.app/",
-      repoLink: "https://github.com/pparthiv/parthiv-portfolio",
-      image: "parthiv.png?height=600&width=800"
+      link: "https://sumit-portfolio.vercel.app/",
+      repoLink: "https://github.com/sumit/sumit-portfolio",
+      image: "/port.png"
     }
   ]
 
   const achievementsData = [
     {
-      title: "Winner of HackGCU'24",
-      description: "Created a mobile application to assist the homeless community.",
-      date: "January 2024",
+      title: "District Football Champion",
+      description: "Led my school team to victory in the district football championship, showcasing teamwork and leadership skills.",
+      date: "January 2021",
     },
     {
-      title: "Qualified GATE CS & DA 2025",
-      description: "Achieved rank of 2540 in CS & 1769 in DA.",
+      title: "Hackathon Participant",
+      description: "Participated in a 48-hour hackathon, developing a prototype for a social media app that connects local communities.",
       date: "2025",
-    },
-    {
-      title: "Qualified GATE CS & DA 2024",
-      description: "Achieved rank of 2699 in CS & 1291 in DS.",
-      date: "2024",
-    },
-    {
-      title: "Selected for GDSC India Regional Bootcamp 2024",
-      description: "For Solutions Challenge 2024.",
-      date: "2024",
     },
   ]
 

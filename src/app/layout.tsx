@@ -17,19 +17,19 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-  title: "Parthiv Purkayastha | Backend Developer & AI/ML Engineer",
+  title: "Sumit Kumar | UI/UX Designer & Python Developer",
   description:
-    "Parthiv Purkayastha is a backend developer and AI/ML engineer specializing in scalable systems and innovative AI solutions.",
-  keywords: ["Parthiv Purkayastha", "Backend Developer", "AI/ML", "Portfolio", "Software Engineer"],
-  authors: [{ name: "Parthiv Purkayastha" }],
-  creator: "Parthiv Purkayastha",
+    "Sumit Kumar is a UI/UX designer and Python developer specializing in creating user-friendly interfaces and seamless user experiences.",
+  keywords: ["Sumit Kumar", "UI/UX Designer", "Python Developer", "Portfolio", "Web Design"],
+  authors: [{ name: "Sumit Kumar" }],
+  creator: "Sumit Kumar",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://parthiv-portfolio.vercel.app/",
-    title: "Parthiv Purkayastha | Backend Developer & AI/ML Engineer",
-    description: "Backend Developer & AI/ML Engineer specializing in scalable systems and innovative solutions.",
-    siteName: "Parthiv Purkayastha Portfolio",
+    url: "https://sumit-portfolio.vercel.app/",
+    title: "Sumit Kumar | UI/UX Designer & Python Developer",
+    description: "UI/UX Designer & Python Developer specializing in creating user-friendly interfaces and seamless user experiences.",
+    siteName: "Sumit Kumar Portfolio",
   },
 }
 

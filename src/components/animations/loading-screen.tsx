@@ -33,8 +33,8 @@ export default function LoadingScreen() {
         transition={{ duration: 0.5 }}
       >
         <div className="mb-8 flex flex-col items-center">
-          <div className="text-3xl font-light tracking-wider text-green-500">PARTHIV</div>
-          <div className="mt-1 text-sm tracking-widest text-zinc-500">AIML ENGINEER / BACKEND DEVELOPER</div>
+          <div className="text-3xl font-light tracking-wider text-green-500">SUMIT</div>
+          <div className="mt-1 text-sm tracking-widest text-zinc-500">UI/UX DESIGNER / PYTHON DEVELOPER</div>
         </div>
 
         <div className="relative h-[1px] w-56 bg-zinc-800">

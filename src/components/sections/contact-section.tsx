@@ -42,15 +42,15 @@ export default function ContactSection() {
   const contactData = [
     {
       type: "Email",
-      value: "parthiv.iitg@gmail.com",
+      value: "sumitkumar10102004@gmail.com",
       icon: <Mail className="h-5 w-5 text-green-500" />,
-      link: "mailto:parthiv.iitg@gmail.com",
+      link: "mailto:sumitkumar10102004@gmail.com",
     },
     {
       type: "LinkedIn",
-      value: "linkedin.com/in/parthiv-purkayastha",
+      value: "linkedin.com/in/sumit7098",
       icon: <User className="h-5 w-5 text-green-500" />,
-      link: "https://www.linkedin.com/in/parthiv-purkayastha/",
+      link: "https://www.linkedin.com/in/sumit7098/",
     },
   ]
 
@@ -82,8 +82,8 @@ export default function ContactSection() {
               <SimpleFade className="mb-8">
                 <p className="text-zinc-400">
                   I'm currently <span className="text-green-500 font-medium">actively looking for roles</span> in
-                  <span className="text-green-500 font-medium"> AI/ML</span> and/or
-                  <span className="text-green-500 font-medium"> Backend Development</span> fields. My inbox is always
+                  <span className="text-green-500 font-medium"> UI/UX </span> and/or
+                  <span className="text-green-500 font-medium"> Python Development</span> fields. My inbox is always
                   open. Whether you have a job opportunity, a question, or just want to say hi, I'll try my best to get
                   back to you!
                 </p>
@@ -139,8 +139,8 @@ export default function ContactSection() {
             <SimpleFade className="mb-8">
               <p className="text-zinc-400">
                 I'm currently <span className="text-green-500 font-medium">actively looking for roles</span> in
-                <span className="text-green-500 font-medium"> AI/ML</span> and/or
-                <span className="text-green-500 font-medium"> Backend Development</span> fields. My inbox is always
+                <span className="text-green-500 font-medium"> UI/UX</span> and/or
+                <span className="text-green-500 font-medium"> Python Development</span> fields. My inbox is always
                 open. Whether you have a job opportunity, a question, or just want to say hi, I'll try my best to get
                 back to you!
               </p>
@@ -274,7 +274,7 @@ export default function ContactSection() {
           transition={{ duration: 0.5 }}
           className="text-sm text-zinc-500"
         >
-          Designed & Built by Parthiv Purkayastha
+          Designed & Built by Sumit Kumar
           <span className="block mt-1">© 2025 All Rights Reserved</span>
         </motion.p>
       </div>

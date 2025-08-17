@@ -9,19 +9,19 @@ export default function EducationSection() {
   const educationData = [
     {
       degree: "B.Tech in Computer Science and Engineering",
-      institution: "Assam Engineering College",
-      logo: "https://upload.wikimedia.org/wikipedia/en/a/ab/Assam_Engineering_College_logo.png",
-      period: "2021 - 2025",
-      grade: "CGPA: 8.72/10",
+      institution: "Punjab Technical University",
+      logo: "https://upload.wikimedia.org/wikipedia/en/e/e9/I._K._Gujral_Punjab_Technical_University_logo.png",
+      period: "2022 - 2026",
+      grade: "CGPA: 7.72/10",
       description:
         "Focused on core computer science fundamentals, data structures, algorithms, and software engineering principles. Participated in various technical competitions and hackathons.",
     },
     {
-      degree: "Class 12 (CBSE)",
-      institution: "Kendriya Vidyalaya IIT Guwahati",
-      logo: "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/KVS_SVG_logo.svg/1200px-KVS_SVG_logo.svg.png",
-      period: "2020",
-      grade: "Percentage: 82.8%",
+      degree: "Class 12 (BBSE)",
+      institution: "BSEB Patna",
+      logo: "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/BSEB_LOGO.svg/150px-BSEB_LOGO.svg.png",
+      period: "2022",
+      grade: "Percentage: 72.8%",
       description:
         "Specialized in Science with Computer Science. Participated in various inter-school competitions and maintained excellent academic standing.",
     },

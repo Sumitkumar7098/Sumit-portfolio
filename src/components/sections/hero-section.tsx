@@ -8,7 +8,7 @@ import { useIsMobile } from "@/hooks/use-mobile"
 
 export default function HeroSection() {
   const containerRef = useRef<HTMLDivElement>(null)
-  const imageUrl = "/portfolio.jpg"
+  const imageUrl = "/pff.png"
   const isMobile = useIsMobile()
 
   return (
@@ -38,7 +38,7 @@ export default function HeroSection() {
                     <div className="rounded-full overflow-hidden aspect-square">
                       <Image
                         src={imageUrl}
-                        alt="Parthiv Purkayastha"
+                        alt="Sumit Kumar"
                         width={200}
                         height={200}
                         className="h-full w-full object-cover"
@@ -70,7 +70,7 @@ export default function HeroSection() {
                 transition={{ duration: 0.5, delay: 0.1 }}
                 className="text-4xl md:text-5xl lg:text-7xl font-light tracking-tight text-white"
               >
-                Hello, I'm <span className="text-green-500 font-normal">Parthiv</span>
+                Hello, I'm <span className="text-green-500 font-normal">Sumit</span>
                 <span className="text-white">.</span>
               </motion.h1>
 
@@ -80,7 +80,7 @@ export default function HeroSection() {
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
                 <p className="text-zinc-400 text-base lg:text-lg max-w-xl">
-                  Backend Developer & AI/ML Engineer specializing in scalable systems and innovative solutions.
+                  UI/UX Designer & Frontend Developer specializing in scalable systems and innovative solutions.
                 </p>
               </motion.div>
             </div>
@@ -100,7 +100,7 @@ export default function HeroSection() {
               </a>
 
               <a
-                href="https://drive.google.com/file/d/1b7Y8A1n72NtCIFqZuPr8CvSJSwkDMRZh/view?usp=sharing"
+                href="https://drive.google.com/file/d/1noEZGN5nUQOBbQKVe6Wg1ee7nxtYF9i1/view"
                 download
                 className="inline-flex items-center justify-center px-4 lg:px-6 py-3 rounded-md border border-zinc-800 text-zinc-400 hover:border-zinc-700 hover:bg-zinc-900 hover:text-zinc-300 transition-colors text-sm lg:text-base"
               >
@@ -117,7 +117,7 @@ export default function HeroSection() {
             >
               <div className="h-px w-12 bg-zinc-800"></div>
               <a
-                href="https://github.com/pparthiv"
+                href="https://github.com/Sumitkumar7098"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-full border border-zinc-800 bg-zinc-900/50 text-zinc-400 hover:text-green-500 hover:border-green-500/30 transition-colors"
@@ -125,7 +125,7 @@ export default function HeroSection() {
                 <Github className="h-5 w-5" />
               </a>
               <a
-                href="https://www.linkedin.com/in/parthiv-purkayastha/"
+                href="https://www.linkedin.com/in/sumit7098/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-full border border-zinc-800 bg-zinc-900/50 text-zinc-400 hover:text-green-500 hover:border-green-500/30 transition-colors"
@@ -133,7 +133,7 @@ export default function HeroSection() {
                 <Linkedin className="h-5 w-5" />
               </a>
               <a
-                href="mailto:parthiv.iitg@gmail.com"
+                href="mailto:sumitkumar10102004@gmail.com"
                 className="p-2 rounded-full border border-zinc-800 bg-zinc-900/50 text-zinc-400 hover:text-green-500 hover:border-green-500/30 transition-colors"
               >
                 <Mail className="h-5 w-5" />
@@ -149,7 +149,7 @@ export default function HeroSection() {
                     <div className="rounded-full overflow-hidden aspect-square">
                       <Image
                         src={imageUrl}
-                        alt="Parthiv Purkayastha"
+                        alt="Sumit Kumar"
                         width={600}
                         height={600}
                         className="h-full w-full object-cover"

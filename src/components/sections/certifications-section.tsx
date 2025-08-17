@@ -7,24 +7,14 @@ import SectionHeading from "@/components/ui/section-heading"
 export default function CertificationsSection() {
   const certifications = [
     {
-      title: "DeepLearning.AI TensorFlow Developer",
-      issuer: "DeepLearning.AI",
-      logo: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F125559383%2F317212851579%2F1%2Foriginal.20210208-232017?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2246%2C2246&s=40aa0fb13fe40ce86241ae7b8fc8caea",
-      date: "August 2023",
+      title: "UI/UX Design Fundamentals",
+      issuer: "Udemy",
+      logo: "https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg",
+      date: "july 2026",
       description:
-        "Mastered building and training neural networks using TensorFlow, implementing computer vision and NLP models, and optimizing ML workflows.",
-      link: "https://drive.google.com/file/d/1WwQyWF5MngMdZXHxHZefmYfRE2FldYE8/view?usp=sharing",
-      skills: ["TensorFlow", "Neural Networks", "Computer Vision", "NLP"],
-    },
-    {
-      title: "Google Data Analytics",
-      issuer: "Google",
-      logo: "https://static.cdnlogo.com/logos/g/35/google-icon.svg",
-      date: "May 2023",
-      description:
-        "Developed expertise in data preparation, analysis, and visualization using industry-standard tools and methodologies.",
-      link: "https://drive.google.com/file/d/1WJSrA_uTgcIdC7syNuhJgsBzzltcujNc/view?usp=sharing",
-      skills: ["Data Analysis", "SQL", "Tableau", "R Programming"],
+        "Learned the fundamentals of UI/UX design, including user research, wireframing, prototyping, and usability testing.",
+      link: "https://drive.google.com/file/d/1noEZGN5nUQOBbQKVe6Wg1ee7nxtYF9i1/view",
+      skills: ["Figma", "UX Design", "Research", "Wireframing", "Prototyping"],
     },
   ]
 
